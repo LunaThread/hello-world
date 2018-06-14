@@ -1,11 +1,24 @@
 # hello-world
 First Git-Hub test project 
 
+using Unity; 
+using Fungus;
+
+Public class extends monobehaviour (){
+
+Var movement = 0.1f;
+public bool idle;
+public flowchart Flowchart;
+private Animator anim;
+
+}
+
 void Public (); 
 {
  if (player.component = true;)
  {
     flowchart.setVariable(idle) = false; 
+    anim.FreezeComponent;
  }
  else if 
  {
