@@ -15,7 +15,7 @@ private Animator anim;
 
 void Public (); 
 {
- if (player.component = true;)
+ if (player.component = true)
  {
     flowchart.setVariable(idle) = false; 
     anim.FreezeComponent;
@@ -42,4 +42,11 @@ if (player.movement > 0.1)
     // Create a variable for the function movement. 
 }
 
+if (player.anim = getPlayState "attack")
+{
+ 
+mathClamp.x = thisPos.x;
+mathClamp.y = -thisPos.y;
+
+}
 
